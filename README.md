@@ -15,3 +15,8 @@ WEBHOOK_SECRET
 ```
 yarn run dev
 ```
+## Run ngrok tunnel
+```
+ngrok http --domain=YOUR_DOMAIN 8080
+```
+## Send a webhook from clerk to it.
